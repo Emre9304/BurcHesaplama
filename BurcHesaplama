@@ -1,0 +1,97 @@
+package giris;
+import java.sql.SQLOutput;
+import java.util.Scanner;
+public class class3 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int dogumAy, dogumGun;
+        System.out.println("Kaçıncı ayda doğdunuz ?: \n 1.Ocak\n 2.Şubat\n 3.Mart\n 4.Nisan\n 5.Mayıs\n 6.Haziran\n " +
+                "7.Temmuz\n 8.Ağustos\n 9.Eylül\n 10.Ekim \n 11.Kasım \n 12.Aralık");
+        dogumAy = input.nextInt();
+        System.out.println("Hangi gün doğdunuz ?: ");
+        dogumGun = input.nextInt();
+        if(dogumAy==1){
+            if (dogumGun >= 22){
+                System.out.println("Kova burcusunuz.");
+            }else{
+                System.out.println("Oğlak burcusunuz.");
+            }
+        }
+        if(dogumAy==2){
+            if (dogumGun >= 20){
+                System.out.println("Balık burcusunuz.");
+            }else{
+                System.out.println("Kova burcusunuz.");
+            }
+        }
+        if(dogumAy==3){
+            if (dogumGun >= 21){
+                System.out.println("Koç burcusunuz.");
+            }else{
+                System.out.println("Balık burcusunuz.");
+            }
+        }
+        if(dogumAy==4){
+            if (dogumGun >= 21){
+                System.out.println("Boğa burcusunuz.");
+            }else{
+                System.out.println("Koç burcusunuz.");
+            }
+        }
+        if(dogumAy==5){
+            if (dogumGun >= 22){
+                System.out.println("İkizler burcusunuz.");
+            }else{
+                System.out.println("Boğa burcusunuz.");
+            }
+        }if(dogumAy==6){
+            if (dogumGun >= 23){
+                System.out.println("Yengeç burcusunuz.");
+            }else{
+                System.out.println("İkizler burcusunuz.");
+            }
+        }
+        if(dogumAy==7){
+            if (dogumGun >= 23){
+                System.out.println("Aslan burcusunuz.");
+            }else{
+                System.out.println("Yengeç burcusunuz.");
+            }
+        }if(dogumAy==8){
+            if (dogumGun >= 23){
+                System.out.println("Başak burcusunuz.");
+            }else{
+                System.out.println("Aslan burcusunuz.");
+            }
+        }
+        if(dogumAy==9){
+            if (dogumGun >= 23){
+                System.out.println("Terazi burcusunuz.");
+            }else{
+                System.out.println("Başak burcusunuz.");
+            }
+        }if(dogumAy==10){
+            if (dogumGun >= 23){
+                System.out.println("Akrep burcusunuz.");
+            }else{
+                System.out.println("Terazi burcusunuz.");
+            }
+        }if(dogumAy==11){
+            if (dogumGun >= 22){
+                System.out.println("Yay burcusunuz.");
+            }else{
+                System.out.println("Akrep burcusunuz.");
+            }
+        }if(dogumAy==12){
+            if (dogumGun >= 22){
+                System.out.println("Oğlak burcusunuz.");
+            }else{
+                System.out.println("Yay burcusunuz.");
+            }
+        }
+
+
+
+
+    }}
+
